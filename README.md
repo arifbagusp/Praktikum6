@@ -21,15 +21,15 @@
 ### Program
 ```python
     list = {
-        "Ari" : "081267888", "Dina" : "087677776"  
+        "Arii" : "081267888", "Dina" : "087677776"  
     }
-    print("\nTampilkan kontak Ari :")
+    print("\nTampilkan kontak Arii :")
     print(29*"=")
     print(" {0:^2} |".format("Nama"), "Nomor Telepon")      
     print("=============================")
 
     # Tampilkan Kontak Ari
-    print(" {0:^2} |".format("Ari") ,list["Ari"],"\n")
+    print(" {0:^2} |".format("Arii") ,list["Arii"],"\n")
 
     # Tambah Kontak baru
     list["Riko"] = "087654544"
